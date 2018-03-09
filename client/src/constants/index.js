@@ -1,0 +1,6 @@
+const constants = {
+    CONNECTED_NEW_USER: 'CONNECTED_NEW_USER',
+    DISCONNECTED_USER: 'DISCONNECTED_USER',
+    RECEIVE_NEW_MESSAGE: 'RECEIVE_NEW_MESSAGE'
+}
+export default constants

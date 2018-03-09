@@ -1,0 +1,17 @@
+{
+  "name": "chat-react-app",
+  "version": "1.0.0",
+  "description": "chat-react-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && node app.js",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
